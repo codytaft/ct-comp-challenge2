@@ -1,0 +1,360 @@
+body {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 62.5%;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0
+} 
+li {
+  align-items: end;
+  display: flex;
+  margin: 0;
+  padding: 0 0 0 1rem;
+}
+
+p {
+  font-size: .8rem;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0 0;
+}
+
+h5 {
+  font-size: .7rem;
+  margin: .5rem 0;
+}
+
+a {
+  background-color: #EAFAEE;
+  color: #0A181B;
+  display: block;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding: .2rem;
+  text-decoration: none;
+}
+
+.page-head {
+  background-color: #17838D;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.head-row1-right {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.user-logo {
+  cursor: pointer;
+  padding-right: .2rem;
+  width: 1.2rem
+}
+
+.admin-username {
+  color: #00FF43;
+  font-size: .8rem;
+  padding: .5rem .2rem 0 .2rem;
+}
+
+.admin-username:hover {
+  color: #EAF4F7;
+  cursor: pointer;
+}
+
+.username-wrapper {
+  align-items: center;
+  color: #A3B4A6;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: .2rem;
+}
+
+.arrow-button {
+  display: flex;
+  height: 1rem;
+  padding-right: 1.1rem;
+  padding-top: .1rem;
+  width: .5rem;
+}
+
+.arrow-button:hover {
+  content: url(Images/down-arrow-hover-01.svg);
+
+}
+
+.head-row2-left {
+  align-items: center;
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.list-text {
+  align-items: center;
+  color: #333;
+  display: flex;
+  font-size: 1.1rem;
+  height: 1rem;
+  padding: 1rem 0 0 .6rem;
+} 
+
+.list-text:hover {
+  color: #EAF4F7;
+  cursor: pointer;
+}
+
+.sm-icons {
+  align-items: baseline;
+  display: flex;
+  height: 1rem;
+  padding: 0 .3rem .5rem .5rem;
+  width: .8rem;
+}
+
+.share-icon:hover {
+  content: url(Images/share-hover.svg);
+}
+
+.list-icon:hover {
+  content: url(Images/list-hover.svg);
+}
+
+.videos-icon:hover {
+  content: url(Images/user-hover.svg);
+}
+
+.sm-icons:hover {
+  cursor: pointer;
+}
+
+.head-row2-right {
+  align-items: flex-end;
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-content: flex-end;
+}
+
+.aquarius-symbol {
+  align-items: flex-end;
+  display: flex;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  width: 7rem;
+}
+
+.nav-list {
+  height: 3rem;
+}
+
+.shares-section {
+  display: flex
+}
+
+.shares-title {
+  background-color: #E8F4F7;
+  display: flex;
+  margin: 0;
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+}
+
+.card-wrapper {
+  background-color: #E8F4F7;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.cards {
+  background-color: #9FB5A5;
+  border-width: .2rem;
+  box-shadow: 2px 3px #444;
+  height: 25rem;
+  margin: .4rem .4rem;
+  max-width: 17rem;
+  min-width: 17rem;
+  width: 23%;
+}
+
+.cards-head {
+  background-blend-mode: multiply;
+  background-color: #000;
+  display: flex;
+  height: 8rem;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  position: center;
+} 
+
+.cards-head:hover {
+  background-blend-mode: normal;
+
+}
+
+.share-button {
+  display: flex;
+  justify-content: baseline;
+  width: 2.5rem;
+}
+
+.share-button:hover {
+  content: url(Images/arrowsred-01.svg);
+  cursor:pointer;
+  display: flex;
+  justify-content: baseline;
+  width: 2.5rem;
+}
+
+.views-text, .view-num-text {
+  color: #3C818B;
+}
+
+.views-text {
+  font-size: .8rem;
+  margin-bottom: -.3rem;
+}
+
+.view-num-text {
+  font-size: 2.1rem;
+  margin-top: .01em;
+}
+
+.cards-text {
+  padding-left: 1rem;
+}
+
+.playlist-text {
+  margin: 1.5rem 0 0 0;
+}
+
+.albums-text {
+  font-size: 1rem;
+  margin: 1.5rem 0 0 0;
+
+}
+.card-head1 {
+  background: #566163 url(Images/CardImages/Questlove-01.png) no-repeat; 
+  background-size: cover;
+}
+
+.card-head2 {
+  background: #566163 url(Images/CardImages/Jdilla-01.png) no-repeat; 
+  background-size: cover;
+}
+
+.card-head3 {
+  background: #566163 url(Images/CardImages/Badu-01.png) no-repeat; 
+  background-size: cover;
+}
+
+.card-head4 {
+  background: #566163 url(Images/CardImages/Dangelo-01.png) no-repeat; 
+  background-size: cover;
+}
+
+.card-head5 {
+  background: #566163 url(Images/CardImages/Common-01.png) no-repeat; 
+  background-size: cover;
+}
+
+.card-head6 {
+  background: #566163 url(Images/CardImages/Poyser-01.png) no-repeat; 
+  background-size: cover;
+}
+
+.card-head7 {
+  background: #566163 url(Images/CardImages/Pino-01.png) no-repeat; 
+  background-size: cover;
+}
+
+.card-head8 {
+  background: #566163 url(Images/CardImages/Bilal-01.png) no-repeat; 
+  background-size: cover;
+}
+
+@media screen and (max-width: 1139px) {
+  .shares-title {
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .shares-title {
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .head-row2-left {
+    align-items: center;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+
+  .list-items {
+    align-items: center;
+    color: #333;
+    font-size: 1.1rem;
+    height: 1rem;
+    margin: 0;
+    padding: 0 1rem 0 .6rem;
+  } 
+
+  .list-text {
+    padding-top: 1rem;
+  }
+
+  .sm-icons {
+    margin: 0;
+    padding-right: .5rem;
+  }
+
+  .share-icon {
+    padding-bottom: .5rem;
+  }
+
+  .list-icon {
+    padding-bottom: .5rem;
+  }
+
+  .videos-icon {
+    padding-bottom: .5rem;
+  }
+
+  img {
+    margin: 0;
+  }
+
+  ul {
+    display: block;
+    margin-bottom: 3.5rem;
+  }
+
+}
+
